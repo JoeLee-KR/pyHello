@@ -29,6 +29,7 @@ print(yarl_url.query_string) # 'name=ferret'
 print(urllib_url.query) # 'name=ferret'
 
 print(yarl_url.query) # <MultiDictProxy('name': 'ferret')>
+print("urllib is not support MultiDictProxy...!!!")
 # urllib에는 없음
 
 print(yarl_url.fragment) # 'nose'
