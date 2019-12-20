@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec02-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00Py/pyHello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00Py/pyReadline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00Py/pyURL.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/joe" beforeDir="false" />
-    </list>
+    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
