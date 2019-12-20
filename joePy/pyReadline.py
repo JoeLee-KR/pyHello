@@ -4,7 +4,7 @@ import readline
 
 print("pyReadline Start::")
 
-histfile = os.path.join(os.path.expanduser("~"), ".python_history")
+histfile = os.path.join(os.path.expanduser("~/"), ".python_history")
 try:
     readline.read_history_file(histfile)
     # default history len is -1 (infinite), which may grow unruly
