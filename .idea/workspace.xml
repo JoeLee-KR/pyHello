@@ -4,20 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/fastcampusPy/Sec04-Q.py" line="81" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec04-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec04-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec04-4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec04-Q.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec05-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/Sec05-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec04-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec05-Q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec03-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/sect01.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/Sec01.py" afterDir="false" />
-    </list>
+    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,12 +279,12 @@
       <workItem from="1576643647165" duration="712000" />
       <workItem from="1576646583560" duration="2973000" />
       <workItem from="1576744053416" duration="2154000" />
-      <workItem from="1576828859532" duration="15990000" />
+      <workItem from="1576828859532" duration="16136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24002000" />
+    <option name="totallyTimeSpent" value="24148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="923" y="48" width="972" height="916" extended-state="0" />
