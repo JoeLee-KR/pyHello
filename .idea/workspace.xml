@@ -4,16 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/fastcampusPy/sec04-Q.py" line="81" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec01.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec02-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec02-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec04-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec04-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec04-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec04-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec04-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec04-4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec04-Q.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec04-Q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec05-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec05-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/Sec05-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec05-2.py" afterDir="false" />
-    </list>
+    <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fastcampusPy/sec05-Q.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="240">
               <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
@@ -74,8 +65,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="923" />
-    <option name="y" value="48" />
+    <option name="x" value="17" />
+    <option name="y" value="111" />
     <option name="width" value="972" />
     <option name="height" value="916" />
   </component>
@@ -288,17 +279,17 @@
       <workItem from="1576643647165" duration="712000" />
       <workItem from="1576646583560" duration="2973000" />
       <workItem from="1576744053416" duration="2154000" />
-      <workItem from="1576828859532" duration="16312000" />
+      <workItem from="1576828859532" duration="16476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24324000" />
+    <option name="totallyTimeSpent" value="24488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="48" width="972" height="916" extended-state="0" />
+    <frame x="17" y="111" width="972" height="916" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21612903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18817204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -484,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fastcampusPy/sec05-Q.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="240">
           <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
