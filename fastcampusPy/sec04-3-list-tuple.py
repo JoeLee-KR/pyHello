@@ -12,6 +12,17 @@
 # dictinaries와 더불어 가장 많이 사용함
 # 튜플 자료형(순서O, 중복O, 수정X,삭제X)  (), list()
 
+#
+# List Comprehension
+#
+number = []
+for n in range(1,11):
+    number.append(n)
+print(number)
+
+number2 = [ x for x in range(1,11) ]
+print(number2)
+
 c = [1,2,3]
 d = ['a', 'bb', 'ccc']
 cc = [1,2,'a','b']
