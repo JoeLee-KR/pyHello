@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec04-3-list-tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec04-3-list-tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec05-Q.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec05-Q-listcomp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py">
+        <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section06.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="96" column="24" lean-forward="true" selection-end-line="188" />
+            <state relative-caret-position="176">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -82,6 +72,7 @@
         <option value="$PROJECT_DIR$/fastcampusPy/sec05-Q.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec06-1-.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" />
+        <option value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
       </list>
     </option>
   </component>
@@ -161,29 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sec06-func-lamda">
-    <configuration name="Sec05-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyHello" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastcampusPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastcampusPy/sec05-2-for-while.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sec07-1-class">
     <configuration name="sec04-3-list-tuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyHello" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,13 +241,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sec07-1-class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyHello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastcampusPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sec07-1-class" />
         <item itemvalue="Python.sec06-func-lamda" />
         <item itemvalue="Python.sec05-Q" />
         <item itemvalue="Python.sec04-3-list-tuple" />
         <item itemvalue="Python.sec04-4" />
-        <item itemvalue="Python.Sec05-2" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +291,12 @@
       <workItem from="1576643647165" duration="712000" />
       <workItem from="1576646583560" duration="2973000" />
       <workItem from="1576744053416" duration="2154000" />
-      <workItem from="1576828859532" duration="23156000" />
+      <workItem from="1576828859532" duration="26077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31168000" />
+    <option name="totallyTimeSpent" value="34089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="78" width="1050" height="916" extended-state="0" />
@@ -341,7 +332,7 @@
     <SUITE FILE_PATH="coverage/pyHello$Sec05_2.coverage" NAME="Sec05-2 Coverage Results" MODIFIED="1577325789085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec04_3_list_tuple.coverage" NAME="sec04-3-list-tuple Coverage Results" MODIFIED="1577331494341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec04_1.coverage" NAME="sec04-1 Coverage Results" MODIFIED="1577088097951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec06_func_lamda.coverage" NAME="sec06-func-lamda Coverage Results" MODIFIED="1577409217834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec06_func_lamda.coverage" NAME="sec06-func-lamda Coverage Results" MODIFIED="1577420257697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec04_4.coverage" NAME="sec04-4 Coverage Results" MODIFIED="1577326175409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$section04_3.coverage" NAME="section04-3 Coverage Results" MODIFIED="1577091640407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
     <SUITE FILE_PATH="coverage/pyHello$section05_1.coverage" NAME="section05-1 Coverage Results" MODIFIED="1577170286307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
@@ -349,6 +340,7 @@
     <SUITE FILE_PATH="coverage/pyHello$sec02_1.coverage" NAME="sec02-1 Coverage Results" MODIFIED="1577170408173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec05_Q.coverage" NAME="sec05-Q Coverage Results" MODIFIED="1577331543756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$pyURL.coverage" NAME="pyURL Coverage Results" MODIFIED="1576653916725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyHello$sec07_1_class.coverage" NAME="sec07-1-class Coverage Results" MODIFIED="1577420830596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$pyHello.coverage" NAME="pyHello Coverage Results" MODIFIED="1576643710704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyHello$Sec05_1.coverage" NAME="Sec05-1 Coverage Results" MODIFIED="1577170290451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$Sec02_2.coverage" NAME="Sec02-2 Coverage Results" MODIFIED="1576828951117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
@@ -530,6 +522,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="195" column="34" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section06.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -537,10 +536,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py">
+    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section07-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="true" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>

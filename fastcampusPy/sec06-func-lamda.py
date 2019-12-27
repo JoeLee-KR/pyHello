@@ -96,7 +96,7 @@ args_func('Kim', 'Park', 'Lee')
 
 print()
 
-
+print("----------kwargs.........")
 # kwargs
 def kwargs_func(**kwargs):  # 매개변수명 자유롭게 변경 가능 // DICT로 인수를 처리함
     for k in kwargs.keys():
@@ -121,17 +121,24 @@ kwargs_func(name1='Kim')
 kwargs_func(name1='Kim', name2='Park')
 kwargs_func(name1='Kim', name2='Park', name3='Lee')
 
+dd = { 'name1':'joe', 'name2': 'lee' }
+print( dd.items() )
+kwargs_func( **dd)
 print()
 
 
+print("========= complexed args ........")
 # 전체 혼합
-def example(arg_1, arg_2, *args, **kwargs):
+def example_a(arg_1, arg_2, *args, **kwargs):
     print(arg_1, arg_2, args, kwargs)
 
 
-example(10, 20, 'park', 'kim', 'lee', age1=33, age2=34, age3=44)
+example_a(10, 20, 30, 'park', 'kim', 'lee', age1=33, age2=34, age3=44)
+example_a(10, 20, 30, age1=33, age2=34, age3=44)
+example_a(10, 20,  age1=33, age2=34, age3=44)
+example_a(10, 20 )
 
-
+print("========= nested function ........")
 # 예제5
 # 중첩함수
 def nested_func(num):
@@ -141,26 +148,22 @@ def nested_func(num):
     print("In func")
     func_in_func(num + 100)
 
-
 nested_func(1)
-
 
 # 실행불가
 # func_in_func(1)
 
-
+print("========= HINT for return values ........")
 # 예제6
 # Hint
 def tot_length1(word: str, num: int) -> int:
     return len(word) * num
 
-
-print('hint exam1 : ', tot_length1("i love you", 10))
+print('hint exam1 : ', tot_length1("ilove you", 10))
 
 
 def tot_length2(word: str, num: int) -> None:
     print('hint exam2 : ', len(word) * num)
-
 
 tot_length2("niceman", 10)
 
@@ -178,9 +181,9 @@ tot_length2("niceman", 10)
 #
 # lambda x: x * 10
 
-# 일반적 함수 -> 변수 할당
+# 일반적 함수 -> 변수 할당 //객체로 할당됨을 알 수 있음
 def mul_10(num):
-    return num * 10
+    return num * 9
 
 
 mul_func = mul_10
@@ -188,12 +191,15 @@ mul_func = mul_10
 print(mul_func(5))
 print(mul_func(6))
 
+print("-----------lambda")
 # 람다 함수 -> 할당
-lambda_mul_func = lambda x: x * 10
+lambda_mul_x = lambda nnn: nnn * 8
+print('>>>', lambda_mul_x(3))
 
 
-def func_final(x, y, func):
-    print(x * y * func(10))
+def func_final(x, y, funcarg):
+    print(x * y * funcarg(4))
 
 
-func_final(10, 10, lambda_mul_func)
+func_final(10, 10, lambda_mul_x)
+func_final(10, 10, mul_func)
