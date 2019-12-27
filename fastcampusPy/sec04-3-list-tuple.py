@@ -23,6 +23,10 @@ print(number)
 number2 = [ x for x in range(1,11) ]
 print(number2)
 
+#
+#
+#
+
 c = [1,2,3]
 d = ['a', 'bb', 'ccc']
 cc = [1,2,'a','b']

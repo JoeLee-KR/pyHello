@@ -2,6 +2,21 @@
 # 파이썬 흐름제어(제어문)
 # 제어문 관련 퀴즈(정답은 영상)
 
+#
+# List Comprehension
+#
+number = []
+for n in range(1,11):
+    number.append(n)
+print(number)
+
+number2 = [ x for x in range(1,11) ]
+print(number2)
+
+#
+#
+#
+
 # 1 ~ 5 문제 if 구문 사용
 # 1. 아래 딕셔너리에서 '가을'에 해당하는 과일을 출력하세요.
 q1 =  {"봄": "딸기", "여름": "토마토", "가을": "사과"}
@@ -65,10 +80,16 @@ else:
 
 # 6. 다음 리스트 중에서 '정' 글자를 제외하고 출력하세요.
 q3 = ["갑", "을", "병", "정"]
+print('6. ', end='')
 for v in q3:
     if v == '정':
         continue
-    print('6. ', v)
+    print(v, end = ' ')
+print()
+
+qq3 = []
+qq3 = [ x for x in q3 if x !='정' ]
+print ('6. ', qq3)
 
 
 # 7. 1부터 100까지 자연수 중 '홀수'만 한 라인으로 출력 하세요.
