@@ -66,6 +66,7 @@ print("call calss method AAA: ", id(SelfTest.function1()) )
 # print(SelfTest.function2()) #예외 발생
 print("test2 =---------------- SelfTest F instance")
 f.function2()
+#print( f.function1(f), f.function1() )  #예외발생
 print("===")
 print("OUT id for instance f: ",id(f))
 print("===")

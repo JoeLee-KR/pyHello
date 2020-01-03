@@ -9,27 +9,28 @@
 
 class Car:
     """Parent Class"""
-    def __init__(self, tp, color):
-        self.type = tp
+    def __init__(self, type, color):
+        self.type = type
         self.color = color
 
     def show(self):
-        # print('Car Class "Show" Method!')
-        return 'Car Class "Show" Method!'
+        # print('Car Class "Show" Method! -in Print:' + self.type + "-" + self.color)
+        return ('Car Class "Show" Method! -in return - at SUPER:' + self.type + "-" + self.color)
 
 
-class BmwCar(Car):
+class PassCar(Car):
     """Sub Class"""
 
     def __init__(self, car_name, tp, color):
-        super().__init__(tp, color)
+        super().__init__(tp, color) # must? call superclass init
         self.car_name = car_name
 
-    def show_model(self) -> None:
-        return 'Your Car Name : %s' % self.car_name
+    def show_model(self) : # None???
+        #return ( 'Your PassCar Name : %s %s %s' % (self.car_name, self.type, self.color) )
+        return ( 'Your Passcar Name : %s %s %s' % (self.car_name, self.type, self.car_name))
 
 
-class BenzCar(Car):
+class Truck(Car):
     """Sub Class"""
 
     def __init__(self, car_name, tp, color):
@@ -38,32 +39,38 @@ class BenzCar(Car):
 
     def show(self):
         super().show()
-        return 'Car Info : %s %s %s' % (self.car_name, self.color,self.type)
+        return 'Truck Info - : %s %s %s' % (self.car_name, self.color,self.type)
 
     def show_model(self) -> None:
-        return 'Your Car Name : %s' % self.car_name
+        return 'Your Truck Name : %s' % self.car_name
 
 
 # 일반 사용
-model1 = BmwCar('520d', 'sedan', 'red')
+model1 = PassCar('520d', 'sedan', 'red')
 
-print(model1.color)  # Super
-print(model1.type)  # Super
-print(model1.car_name)  # Sub
-print(model1.show())  # Super
-print(model1.show_model())  # Sub
+print("====================")
+print("--Color:", model1.color)  # Super
+print("--Type:", model1.type)  # Super
+print("--Car Name:", model1.car_name)  # Sub
+print("--Super show:", model1.show())  # Super
+print("--Sub show_model:", model1.show_model())  # Sub
+print("====================")
 
 # Method Overriding
-model2 = BenzCar("220d", 'suv', 'black')
-print(model2.show())
+model2 = PassCar("220d", 'suv', 'black')
+print("SS", model2.show())
+print("SM", model2.show_model())
+print("====================")
 
 # Parent Method Call
-model3 = BenzCar("350s", 'sedan', 'silver')
-print(model3.show())
+model3 = Truck("350s", 'sedan', 'silver')
+print("SS", model3.show())
+print("SM", model3.show_model())
+print("====================")
 
 # Inheritance Info
-print('Inheritance Info : ', BmwCar.mro())
-print('Inheritance Info : ', BenzCar.mro())
+print('Inheritance Info : ', PassCar.mro())
+print('Inheritance Info : ', Truck.mro())
 
 
 # 예제2
