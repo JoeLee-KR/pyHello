@@ -1,4 +1,4 @@
-# Section07-1
+# Section07-1   JOELEE
 # 파이썬 클래스 상세 이해
 # Self, 클래스, 인스턴스 변수
 
