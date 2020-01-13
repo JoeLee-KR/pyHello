@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fastcampusPkg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPkg/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPkg/prints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastcampusPy/sec08.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastcampusPkg/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPkg/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec08.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec08.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,26 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fastcampusPy/sec08.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fastcampusPkg/fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,11 +79,12 @@
         <option value="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec08.py" />
         <option value="$PROJECT_DIR$/fastPkg/fibonacci.py" />
         <option value="$PROJECT_DIR$/fastcampusPkg/prints.py" />
-        <option value="$PROJECT_DIR$/fastcampusPkg/calc.py" />
+        <option value="$PROJECT_DIR$/fastcampusPkg/fibo.py" />
         <option value="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" />
+        <option value="$PROJECT_DIR$/fastcampusPy/sec08.py" />
+        <option value="$PROJECT_DIR$/fastcampusPkg/calc.py" />
       </list>
     </option>
   </component>
@@ -190,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fibonacci">
+  <component name="RunManager" selected="Python.calc">
     <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyHello" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,28 +237,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sec07-1-class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyHello" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastcampusPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sec07-2-inherit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyHello" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,13 +259,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sec08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyHello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastcampusPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastcampusPy/sec08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.calc" />
+        <item itemvalue="Python.sec08" />
+        <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.prints" />
         <item itemvalue="Python.sec07-2-inherit" />
-        <item itemvalue="Python.sec07-1-class" />
       </list>
     </recent_temporary>
   </component>
@@ -332,23 +312,22 @@
       <workItem from="1576828859532" duration="32633000" />
       <workItem from="1578475835728" duration="244000" />
       <workItem from="1578532500238" duration="305000" />
-      <workItem from="1578881433959" duration="6879000" />
+      <workItem from="1578881433959" duration="8542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48073000" />
+    <option name="totallyTimeSpent" value="49736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="78" width="1030" height="972" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23684211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288835" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42045453" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42045453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39927185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,11 +352,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyHello$sec04_1.coverage" NAME="sec04-1 Coverage Results" MODIFIED="1577088097951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec04_4.coverage" NAME="sec04-4 Coverage Results" MODIFIED="1577326175409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec08.coverage" NAME="sec08 Coverage Results" MODIFIED="1578909786885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$prints.coverage" NAME="prints Coverage Results" MODIFIED="1578907009256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
-    <SUITE FILE_PATH="coverage/pyHello$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1578907793238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
+    <SUITE FILE_PATH="coverage/pyHello$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1578909571974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
     <SUITE FILE_PATH="coverage/pyHello$Sec04_2.coverage" NAME="Sec04-2 Coverage Results" MODIFIED="1577089980772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$Sec04_Q01.coverage" NAME="Sec04-Q01 Coverage Results" MODIFIED="1577169546186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$calc.coverage" NAME="calc Coverage Results" MODIFIED="1578907155994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
+    <SUITE FILE_PATH="coverage/pyHello$calc.coverage" NAME="calc Coverage Results" MODIFIED="1578909953581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
     <SUITE FILE_PATH="coverage/pyHello$Sec05_2.coverage" NAME="Sec05-2 Coverage Results" MODIFIED="1577325789085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec04_3_list_tuple.coverage" NAME="sec04-3-list-tuple Coverage Results" MODIFIED="1577331494341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec06_func_lamda.coverage" NAME="sec06-func-lamda Coverage Results" MODIFIED="1577420257697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
@@ -616,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/prints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -637,31 +610,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPkg/fibo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPkg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/fastcampusPkg/calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/prints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fastcampusPkg/fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="58">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPkg/prints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>

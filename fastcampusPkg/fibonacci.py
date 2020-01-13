@@ -7,20 +7,24 @@ class Fibonacci:
         while a < n:
             print(a, end=' ')
             a, b = b, a + b
-        print()
+        print( '== fib')
+
+    def fib3(self, n) -> None:
+        a, b = 0, 1
+        while a < n:
+            print(a, end=' ')
+            a, b = b, a + b
+        print( '== fib')
 
     def fib2(n):
         result = []
-        print ("====", n)
+        #print ("====", n)
         a, b = 0, 1
         while a < n:
             result.append(a)
             a, b = b, a + b
+        print(result, '== fib2')
         return result
-
-    def fib3(nnn) -> None:
-        a, b = 0, 1
-        print(a,b,nnn)
 
 if __name__ == "__main__":
     print("This is", dir())
@@ -30,7 +34,6 @@ if __name__ == "__main__":
     print(ff.title)
     #ff.fib()
     #print(ff.fib2(5))
-    ff.fib3()
-    Fibonacci.fib(5)
-    Fibonacci.fib2(5)
+    Fibonacci.fib(100)
+    Fibonacci.fib2(100)
 
