@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="269">
+              <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -102,16 +94,16 @@
         <option value="$PROJECT_DIR$/fastcampusPy/sec05-Q.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec06-1-.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" />
         <option value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
+        <option value="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="78" />
-    <option name="width" value="1050" />
-    <option name="height" value="916" />
+    <option name="width" value="1030" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sec07-1-class">
+  <component name="RunManager" selected="Python.sec07-2-inherit">
     <configuration name="sec04-1-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyHello" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,8 +289,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sec07-1-class" />
         <item itemvalue="Python.sec07-2-inherit" />
+        <item itemvalue="Python.sec07-1-class" />
         <item itemvalue="Python.sec04-1-data" />
         <item itemvalue="Python.sec06-func-lamda" />
         <item itemvalue="Python.sec05-Q" />
@@ -326,23 +318,23 @@
       <workItem from="1576828859532" duration="32633000" />
       <workItem from="1578475835728" duration="244000" />
       <workItem from="1578532500238" duration="305000" />
-      <workItem from="1578881433959" duration="362000" />
+      <workItem from="1578881433959" duration="5281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41556000" />
+    <option name="totallyTimeSpent" value="46475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="78" width="1050" height="916" extended-state="0" />
+    <frame x="11" y="78" width="1030" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23214285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23684211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288835" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42045453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39927185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +369,7 @@
     <SUITE FILE_PATH="coverage/pyHello$sec02_1.coverage" NAME="sec02-1 Coverage Results" MODIFIED="1577170408173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$sec05_Q.coverage" NAME="sec05-Q Coverage Results" MODIFIED="1577331543756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$pyURL.coverage" NAME="pyURL Coverage Results" MODIFIED="1576653916725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyHello$sec07_1_class.coverage" NAME="sec07-1-class Coverage Results" MODIFIED="1578010465390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec07_1_class.coverage" NAME="sec07-1-class Coverage Results" MODIFIED="1578904407402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$pyHello.coverage" NAME="pyHello Coverage Results" MODIFIED="1576643710704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyHello$Sec05_1.coverage" NAME="Sec05-1 Coverage Results" MODIFIED="1577170290451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$Sec02_2.coverage" NAME="Sec02-2 Coverage Results" MODIFIED="1576828951117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
@@ -386,7 +378,7 @@
     <SUITE FILE_PATH="coverage/pyHello$pyReadline.coverage" NAME="pyReadline Coverage Results" MODIFIED="1576039352694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyHello$Sec04_2.coverage" NAME="Sec04-2 Coverage Results" MODIFIED="1577089980772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
     <SUITE FILE_PATH="coverage/pyHello$Sec04_Q01.coverage" NAME="Sec04-Q01 Coverage Results" MODIFIED="1577169546186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec07_2_inherit.coverage" NAME="sec07-2-inherit Coverage Results" MODIFIED="1577932317389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec07_2_inherit.coverage" NAME="sec07-2-inherit Coverage Results" MODIFIED="1578905963108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/00Py/pyReadline.py" />
@@ -586,17 +578,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py">
+    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="425">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
+    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="269">
+          <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
         </state>
       </provider>
     </entry>

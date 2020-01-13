@@ -10,6 +10,11 @@
 # 예제1
 
 class UserInfo:
+    name = "NONE"
+    def __init__():
+        #print("INIT with NONE")
+        self.name = "NEWNONE"
+
     def __init__(self, name):
         self.name = name
         # print("INIT:", name)
@@ -23,12 +28,12 @@ class UserInfo:
 print("===================== start ex 1")
 user1 = UserInfo("Kim")
 user2 = UserInfo("Park")
-user3 = UserInfo("LLLL")
+user3 = UserInfo("JOE")
 
 print(id(user1), "Object instance id")
 print(id(user2), "Object instance id")
 print(id(user3), "Object instance id")
-
+print(UserInfo.name)
 
 user1.print_info()
 user2.print_info()
@@ -40,42 +45,57 @@ print('user3 : ', user3.__doc__)
 
 print(user1.name)
 print(user2.name)
+print(user3.name)
 print("===================== end ex 1")
+
 # 예제2
 # self의 이해
 
 class SelfTest:
     def function1():  # this is class method
         print("IN function1 called! im class method", id(SelfTest))
+        # MUST called by ClassName
 
     def function2(self): # this is instance method
-        print("IN function2: im instance method ", id(self))
+        print("IN function2: im instance method, this is instance id: ", id(self))
+        # MUST called by InstanceName after Create
+
+
+print("1111 -------------------------------- SelfTest Class")
+print(dir(SelfTest))
 
 f = SelfTest()
-print("test2 =----------------")
+f2 = SelfTest()
 print(dir(f))
-print(dir(SelfTest))
+#print(SelfTest.__dict__) $ cant call, SelftTest is class
 print(f.__dict__)
-print("test2 =----------------  SelfTest CLASS")
-# f.function1()   is not called
 SelfTest.function1()
-print("===")
-print("OUT id for class SelfTest: ",id(SelfTest))
-print("===")
-print("call calss method AAA: ", id(SelfTest.function1()) )
+#f.function1()          # cant call, function1() is class method
+
+print(".............")
+print("OUT id for class SelfTest(): ", id(SelfTest))
+print("OUT id for class SelfTest.f(): ", id(SelfTest.function1()) )
+
+print("22222 =============================== F Instance")
 # print(SelfTest.function2()) #예외 발생
-print("test2 =---------------- SelfTest F instance")
+# SelfTest.function2() # 예외 발생
+SelfTest.function2(f)
 f.function2()
-#print( f.function1(f), f.function1() )  #예외발생
-print("===")
+print("*** SAME CALL & USE: Selftest.f2(f) == f.f2()")
+#print( f.function1() )  #예외발생
+#print( f.function1(f) )  #예외발생
+print(".............")
 print("OUT id for instance f: ",id(f))
-print("===")
-print("call calss method BBB: ", id(f.function2()) )
-print("===")
-print("call calss method BBB: ", id(SelfTest.function2(f)) )
+print("call calss, id for method : ", id(f.function2()) )
+print("call calss, id for method : ", id(SelfTest.function2(f)) )
 # python has self, therefore
 # instance.method() == class.method(instance)
-print("test2 =----------------")
+
+print(".............")
+print("OUT id for instance f: ",id(f2))
+print("call calss, id for method : ", id(f2.function2()) )
+print("call calss, id for method : ", id(SelfTest.function2(f2)) )
+print("END SelfTest =------------------------")
 
 
 
@@ -85,6 +105,9 @@ print("test2 =----------------")
 
 class Warehouse:
     stock_num = 0  # class variable
+
+    def firstWarehouse():
+        this.stock_num += 10
 
     def __init__(self, name):
         # 인스턴스 변수
@@ -96,25 +119,29 @@ class Warehouse:
         print("__del__with value:", self.stock_num)
 
 
-print("EX 3 ----------------------")
+print("EX 3333333 ----------------------")
 user1 = Warehouse('Kim')
 user2 = Warehouse('Park')
+user3 = Warehouse("JOELEE")
 print("create instance ...")
 
 print(user1.name)
 print(user2.name)
+print(user3.name)
 print("DICT instance user1: ", user1.__dict__)
-print("DICT instance user1: ", user2.__dict__)
+print("DICT instance user1: ", user3.__dict__)
 print("DICT class Warehouse: ", Warehouse.__dict__)  # 클래스 네임스페이스 , 클래스 변수 (공유)
-print("checkes ....")
+print(Warehouse.stock_num)
+
+Warehouse.stock_num += 20
+print("Warehouse1: ", Warehouse.stock_num)
 # Warehouse.stock_num = 50 # 직접 접근 가능
 
-print(user1.stock_num)
-print(user2.stock_num)
-print(Warehouse.stock_num)
-print("checkes values ....")
+Warehouse.stock_num += 20
+#Warehouse.firstWarehouse()
+print("Warehouse2: ", Warehouse.stock_num)  # 클래스 네임스페이스 , 클래스 변수 (공유)
+print("checkes ....")
 
-Warehouse.stock_num += 10
 print(user1.stock_num)
 print(user2.stock_num)
 print(Warehouse.stock_num)
@@ -122,6 +149,7 @@ print("checkes values ....")
 
 del user1
 del user2
+del user3
 
 print(Warehouse.stock_num)
 print("checkes values after del ....")
