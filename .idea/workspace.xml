@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/fastcampusPy/sec04-Q.py" line="81" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="56fb73e0-88f1-4eb4-b8e2-ea31af8eae24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyHello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyHello.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPkg/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPkg/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastcampusPy/sec08.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastcampusPy/sec08.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +25,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,127 +40,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pyHello.py" />
-        <option value="$PROJECT_DIR$/pyReadline.py" />
-        <option value="$PROJECT_DIR$/pyURL.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec02-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec03-1.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec03-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec04-1.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec04-2-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec04-2.py" />
-        <option value="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-3.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec04-3.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec04-4.py" />
-        <option value="$PROJECT_DIR$/Sec04-Q01.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec04-Q01.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec05-1.py" />
-        <option value="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section05-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/Sec05-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec04-4.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec04-4-dict-set.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec04-1-data.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec02-2.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec02-1.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec04-3-list-tuple.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec05-Q.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec06-1-.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec07-1-class.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py" />
-        <option value="$PROJECT_DIR$/fastPkg/fibonacci.py" />
-        <option value="$PROJECT_DIR$/fastcampusPkg/prints.py" />
-        <option value="$PROJECT_DIR$/fastcampusPkg/fibo.py" />
-        <option value="$PROJECT_DIR$/fastcampusPkg/fibonacci.py" />
-        <option value="$PROJECT_DIR$/fastcampusPy/sec08.py" />
-        <option value="$PROJECT_DIR$/fastcampusPkg/calc.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="78" />
-    <option name="width" value="1030" />
-    <option name="height" value="972" />
-  </component>
+  <component name="ProjectId" id="1X6Dp61BjaVebUO2wKXz6cvXZmy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pyHello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyHello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyHello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyHello" type="462c0819:PsiDirectoryNode" />
-              <item name="fastcampusPkg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyHello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyHello" type="462c0819:PsiDirectoryNode" />
-              <item name="fastcampusPy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyHello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="pyHello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (pyHello) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="pyHello" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/code/pyHello" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fastcampusPy" />
       <recent name="$PROJECT_DIR$/00Py" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.calc">
     <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -313,343 +206,49 @@
       <workItem from="1578475835728" duration="244000" />
       <workItem from="1578532500238" duration="305000" />
       <workItem from="1578881433959" duration="8686000" />
+      <workItem from="1580357832535" duration="532000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49880000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="11" y="78" width="1030" height="972" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012146" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3288835" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42045453" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39927185" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3288835" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3288835" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pyHello$sec04_1.coverage" NAME="sec04-1 Coverage Results" MODIFIED="1577088097951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec04_4.coverage" NAME="sec04-4 Coverage Results" MODIFIED="1577326175409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec08.coverage" NAME="sec08 Coverage Results" MODIFIED="1578909786885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$prints.coverage" NAME="prints Coverage Results" MODIFIED="1578907009256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
-    <SUITE FILE_PATH="coverage/pyHello$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1578909571974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec04_2.coverage" NAME="Sec04-2 Coverage Results" MODIFIED="1577089980772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec04_Q01.coverage" NAME="Sec04-Q01 Coverage Results" MODIFIED="1577169546186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$calc.coverage" NAME="calc Coverage Results" MODIFIED="1578909953581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec05_2.coverage" NAME="Sec05-2 Coverage Results" MODIFIED="1577325789085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec04_3_list_tuple.coverage" NAME="sec04-3-list-tuple Coverage Results" MODIFIED="1577331494341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec06_func_lamda.coverage" NAME="sec06-func-lamda Coverage Results" MODIFIED="1577420257697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$section04_3.coverage" NAME="section04-3 Coverage Results" MODIFIED="1577091640407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
-    <SUITE FILE_PATH="coverage/pyHello$sec04_1_data.coverage" NAME="sec04-1-data Coverage Results" MODIFIED="1577931297111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$section05_1.coverage" NAME="section05-1 Coverage Results" MODIFIED="1577170286307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec04_4.coverage" NAME="Sec04-4 Coverage Results" MODIFIED="1577153654125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec02_1.coverage" NAME="sec02-1 Coverage Results" MODIFIED="1577170408173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec05_Q.coverage" NAME="sec05-Q Coverage Results" MODIFIED="1577331543756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$pyURL.coverage" NAME="pyURL Coverage Results" MODIFIED="1576653916725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyHello$sec07_1_class.coverage" NAME="sec07-1-class Coverage Results" MODIFIED="1578904407402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$pyHello.coverage" NAME="pyHello Coverage Results" MODIFIED="1576643710704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec05_1.coverage" NAME="Sec05-1 Coverage Results" MODIFIED="1577170290451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec02_2.coverage" NAME="Sec02-2 Coverage Results" MODIFIED="1576828951117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$Sec04_3.coverage" NAME="Sec04-3 Coverage Results" MODIFIED="1577152171651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$sec03_1.coverage" NAME="sec03-1 Coverage Results" MODIFIED="1577085393023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
-    <SUITE FILE_PATH="coverage/pyHello$pyReadline.coverage" NAME="pyReadline Coverage Results" MODIFIED="1576039352694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyHello$sec07_2_inherit.coverage" NAME="sec07-2-inherit Coverage Results" MODIFIED="1578905963108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+  <component name="WindowStateProjectService">
+    <state x="469" y="190" key="SettingsEditor" timestamp="1580357904187">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1580357904187" />
+    <state x="653" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580357835874">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="653" y="383" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1580357835874" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00Py/pyReadline.py" />
-    <entry file="file://$PROJECT_DIR$/00Py/pyURL.py" />
-    <entry file="file://$USER_HOME$/Downloads/파이썬-웹-개발-올인원-패키지-강의자료/강의 코드/전체 예제 소스 - 파이썬 기초/section01.py" />
-    <entry file="file://$PROJECT_DIR$/00Py/pyHello.py" />
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/Sec04-2-2.py" />
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec04-Q.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-5-q.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section05-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="142" selection-start-line="142" selection-end-line="151" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section05-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section05-3-q.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec05-2-for-while.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec05-1-if.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section04-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="190" lean-forward="true" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section02-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section02-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-end-line="60" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec05-Q-listcomp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec06-func-lamda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="195" column="34" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="96" column="24" lean-forward="true" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section07-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section07-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="95" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec02-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec04-2-string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="149" column="15" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec04-3-list-tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1314">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec04-4-dict-set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec04-1-data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="195" column="25" lean-forward="true" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-1-class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec07-2-inherit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec02-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/section08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="true" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/prints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/calculations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/fibo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드/pkg/fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPkg/prints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastcampusPy/sec08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyHello$prints.coverage" NAME="prints Coverage Results" MODIFIED="1578907009256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
+    <SUITE FILE_PATH="coverage/pyHello$sec06_func_lamda.coverage" NAME="sec06-func-lamda Coverage Results" MODIFIED="1577420257697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec04_2.coverage" NAME="Sec04-2 Coverage Results" MODIFIED="1577089980772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec05_2.coverage" NAME="Sec05-2 Coverage Results" MODIFIED="1577325789085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec04_4.coverage" NAME="Sec04-4 Coverage Results" MODIFIED="1577153654125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec05_Q.coverage" NAME="sec05-Q Coverage Results" MODIFIED="1577331543756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec08.coverage" NAME="sec08 Coverage Results" MODIFIED="1578909786885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec02_1.coverage" NAME="sec02-1 Coverage Results" MODIFIED="1577170408173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1578909571974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
+    <SUITE FILE_PATH="coverage/pyHello$pyReadline.coverage" NAME="pyReadline Coverage Results" MODIFIED="1576039352694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec05_1.coverage" NAME="Sec05-1 Coverage Results" MODIFIED="1577170290451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$pyURL.coverage" NAME="pyURL Coverage Results" MODIFIED="1576653916725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyHello$sec03_1.coverage" NAME="sec03-1 Coverage Results" MODIFIED="1577085393023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec04_Q01.coverage" NAME="Sec04-Q01 Coverage Results" MODIFIED="1577169546186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$section05_1.coverage" NAME="section05-1 Coverage Results" MODIFIED="1577170286307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
+    <SUITE FILE_PATH="coverage/pyHello$section04_3.coverage" NAME="section04-3 Coverage Results" MODIFIED="1577091640407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/파이선_올인원강좌_자료_RePacked/01.파이선기초_강의예제코드" />
+    <SUITE FILE_PATH="coverage/pyHello$pyHello.coverage" NAME="pyHello Coverage Results" MODIFIED="1576643710704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec02_2.coverage" NAME="Sec02-2 Coverage Results" MODIFIED="1576828951117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec07_2_inherit.coverage" NAME="sec07-2-inherit Coverage Results" MODIFIED="1578905963108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec04_1.coverage" NAME="sec04-1 Coverage Results" MODIFIED="1577088097951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec07_1_class.coverage" NAME="sec07-1-class Coverage Results" MODIFIED="1578904407402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec04_3_list_tuple.coverage" NAME="sec04-3-list-tuple Coverage Results" MODIFIED="1577331494341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec04_1_data.coverage" NAME="sec04-1-data Coverage Results" MODIFIED="1577931297111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$Sec04_3.coverage" NAME="Sec04-3 Coverage Results" MODIFIED="1577152171651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$sec04_4.coverage" NAME="sec04-4 Coverage Results" MODIFIED="1577326175409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPy" />
+    <SUITE FILE_PATH="coverage/pyHello$calc.coverage" NAME="calc Coverage Results" MODIFIED="1578909953581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastcampusPkg" />
   </component>
 </project>
