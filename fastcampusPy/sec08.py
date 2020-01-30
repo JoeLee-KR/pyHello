@@ -9,13 +9,14 @@
 # 사용1(클래스)
 from fastcampusPkg.fibonacci import Fibonacci
 
-print("ex1 : ", Fibonacci.fib(100))
-print("ex1 : ", Fibonacci.fib2(200))
-print("ex1 : ", Fibonacci().title)
+print("ex1-1 : ", Fibonacci.fib(100))
+print("ex1-2 : ", Fibonacci.fib2(200))
+print("ex1-3 : ", Fibonacci().title)
 
 fff = Fibonacci("JOE")
-print("ex1-1 : ", fff.fib3(100), fff.title)
-
+print("ex1-4 : ", fff.fib3(100), fff.title)
+#print("ex1-5 : ", fff.fib(100), fff.fib2(100))
+# dont call with instance name to CLASS METHOD...
 
 # 사용2(클래스)
 from fastcampusPkg.fibonacci import *
@@ -31,13 +32,13 @@ print("ex3 : ", fb.fib(130))
 print("ex3 : ", fb.fib2(400))
 
 
-# 사용4(함수) : 파일 Alias
+# 사용4(함수) : 파일 Alias as c
 import fastcampusPkg.calc as c
 
 print("ex4 : ", c.add(10,10), c.mul(10,4))
 
 
-# 사용5(함수)
+# 사용5(함수) : 파일.{imported}.Function Alias as d
 from fastcampusPkg.calc import div as d
 
 print("ex5 : ",     d(100,10), int(d(100,10)))
@@ -45,6 +46,7 @@ print("ex5 : ",     d(100,10), int(d(100,10)))
 # 사용6
 import fastcampusPkg.prints as p
 import builtins
+# builtins is default included Package, that has normally function
 
 p.prt1()
 p.prt2()
