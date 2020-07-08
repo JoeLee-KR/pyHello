@@ -14,7 +14,7 @@ print("EX 1 ==================")
 fd = open('../resource/review.txt', 'r')
 contents = fd.read()
 print(contents)
-# print(dir(fd))
+#print(dir(fd))
 # fd에 포함된 가능한 메소드들을 확인한다. dir
 # 반드시 close 리소스 반환
 fd.close()
@@ -34,34 +34,36 @@ print()
 
 # read : 전체 내용 읽기, read(10) : 10글자 읽기
 
-# 예제3
+# 예제3 / line strip?
 print("EX 3 ==================")
 with open('../resource/review.txt', 'r') as fd:
     for c in fd:
         # print(c)
-        print(c.strip())
+        print(c.strip(),".")
 
 print()
 
 # 예제4
+print("EX 4 ==================")
 with open('../resource/review.txt', 'r') as fd:
     contents = fd.read()
-    print('>', contents)
+    print('a>', contents)
     contents = fd.read()
-    print('>', contents)  # 내용 없음
+    print('b>', contents)  # 내용 없음
     fd.seek(0, 0)
     contents = fd.read()
-    print('>', contents)
+    print('c>', contents)
 
 # readline : 한 줄씩 읽기, readline(문자수) : 문자수 읽기
 
 print()
 
 # 예제5
+print("EX 5 ================== fd.readlin, once line")
 with open('../resource/review.txt', 'r') as fd:
     line = fd.readline()
     while line:
-        print(line, end='')
+        print(">>", line, end='')
         line = fd.readline()
 
 # readlines : 전체 읽은 후 라인 단위 리스트 저장
@@ -70,10 +72,12 @@ print()
 print()
 
 # 예제6
+print("EX 6 ================== fd.readlines, multiple lines")
 with open('../resource/review.txt', 'r') as fd:
     contents = fd.readlines()
     print(contents)
     print()
+    print("*********")
     for c in contents:
         print(c, end='')
 
@@ -81,6 +85,7 @@ print()
 print()
 
 # 예제7
+print("EX 7 ================== score file by line")
 with open('../resource/score.txt', 'r') as fd:
     score = []
     for line in fd:
@@ -88,31 +93,4 @@ with open('../resource/score.txt', 'r') as fd:
     print(score)
     print('Average : {:6.3f}'.format(sum(score) / len(score)))
 
-# 파일 쓰기
-
-# 예제1
-with open('../resource/test.txt', 'w') as fd:
-    fd.write('niceman!')
-
-# 예제2
-with open('../resource/test.txt', 'a') as fd:
-    fd.write('niceman!!')
-
-# 예제3
-from random import randint
-
-with open('../resource/score2.txt', 'w') as fd:
-    for cnt in range(6):
-        fd.write(str(randint(50, 100)))
-        fd.write('\n')
-
-# 예제4
-# writelines : 리스트 -> 파일로 저장
-with open('../resource/test2.txt', 'w') as fd:
-    list = ['Kim\n', 'Park\n', 'Lee\n']
-    fd.writelines(list)
-
-# 예제5
-with open('../resource/test3.txt', 'w') as fd:
-    print('Test Contents!', file=fd)
-    print('Test Contents!!', file=fd)
+print("********** score file by whitespace???   ")

@@ -19,7 +19,7 @@ class Car:
 
     def show(self):
         # print('Car Class, "Show" Instance Method! - at SUPER: ' + self.type + "-" + self.color)
-        return ('Car Class, "Show" Instance Method! - at SUPER: ' + self.type + " " + self.color)
+        return ('Car::Show Instance Method! - at SUPER: ' + self.type + " " + self.color)
 
 
 class Sedan(Car):   # 'Cas' is a parent class

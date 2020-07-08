@@ -36,7 +36,7 @@ print('name' in a)
 print('kim' in a)  # only key
 print('Kim' in a)  # only key
 
-print('=================')
+print('=================111111')
 a = set()
 b = set([1, 2, 3, 4])
 c = set([1, 4, 5, 6])
@@ -58,13 +58,13 @@ print(s1.difference(s2))
 print(s1 - s2)
 print(s2 - s1)
 
-print('==========')
+print('==========22222')
 s1.add(11)
 s2.add(12)
 print(s1 | s2)
 s2.remove(12)
 # s2.remove(11)
-print(s1 | s2)
+print(s1, s2, s1 | s2)
 
 
 # Section04-4
@@ -75,7 +75,7 @@ print(s1 | s2)
 print("DICTIONARY ================")
 # 선언
 a = {'name': 'Kim', 'phone': '01012345678', 'birth': '870124'}
-b = {0: 'Hello python!'}
+b = {99: 'Hello python!'}
 c = {'arr': [1, 2, 3, 4]}
 
 print('a - ', type(a), a)
@@ -87,7 +87,7 @@ print('a - ', a['name'])  # 존재X -> 에러 발생
 print('a - ', a.get('name'))  # 존재X -> None 처리
 print('a - ', a.get('namex'))  # 존재X -> None 처리
 
-print('b - ', b[0])
+print('b - ', b[99])
 print('b - ', b.get(0))
 print('c - ', c['arr'])
 print('c - ', c['arr'][3])
@@ -129,7 +129,7 @@ print('a - ', 'name' in a)
 print('a - ', 'addr' in a)
 
 # 집합(Sets) 자료형(순서X, 중복X)
-
+print('=====================setsetset')
 # 선언
 a = set()
 b = set([1, 2, 3, 4])
@@ -152,17 +152,19 @@ print('l - ', type(l), l)
 print('l - ', l[0], l[1:3])
 
 # 집합 자료형 활용
-s1 = set([1, 2, 3, 4, 5, 6])
-s2 = set([4, 5, 6, 7, 8, 9])
+#s1 = set([1, 2, 3, 4, 5, 6])
+#s2 = set([4, 5, 6, 7, 8, 9])
+s1 = set(b)
+s2 = set(c)
 
-print('l - ', s1 & s2)
-print('l - ', s1.intersection(s2))
+print('l1 - ', s1 & s2)
+print('l2 - ', s1.intersection(s2))
 
-print('l - ', s1 | s2)
-print('l - ', s1.union(s2))
+print('l3 - ', s1 | s2)
+print('l4 - ', s1.union(s2))
 
-print('l - ', s1 - s2)
-print('l - ', s1.difference(s2))
+print('l5 - ', s1 - s2)
+print('l6 - ', s1.difference(s2))
 
 # 추가 & 제거
 s1 = set([1, 2, 3, 4])

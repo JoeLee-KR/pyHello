@@ -58,9 +58,7 @@ def func_mul2(x):
     return [y1, y2, y3]  # return type list
 
 tup = func_mul2(4)
-print('B', type(tup), tup, list(tup))
-lis = func_mul2(4)
-print('B', type(lis), lis, set(lis))
+print('B', type(tup), tup, list(tup), set(tup))
 
 
 # 딕셔너리 리턴
@@ -73,7 +71,10 @@ def func_mul3(x):
 
 dic = func_mul3(8)
 
-print(type(dic), dic, dic.get('ret3'), dic.items(), dic.keys(), dic.values())
+print('C', type(dic), dic, dic.get('ret3') )
+print('C', dic.items() )
+print('C', dic.keys() )
+print('C', dic.values() , "===")
 
 
 # 예제4
@@ -82,7 +83,7 @@ print("----------args.........")
 # *args
 def args_func(*args):  # 매개변수명 자유롭게 변경 가능 // TUPLE로 인수를 처리함
     for i, v in enumerate(args):
-        print('{}'.format(i), i, v, end=' ')
+        print('{}'.format(i), ":", i, "::", v, end=' , ')
     print('<<')
 
 #def args_func(*args):
@@ -101,7 +102,7 @@ print("----------kwargs.........")
 def kwargs_func(**kwargs):  # 매개변수명 자유롭게 변경 가능 // DICT로 인수를 처리함
     for k in kwargs.keys():
 #        print('{}'.format(k), kwargs[k], '##', k, end=' ')
-        print( '>>>', kwargs[k], k, end=' ')
+        print( '>>>',  k, kwargs[k], end=' ')
     print('FFF')
 
 #def kwargs_func(**kwargs):
@@ -197,6 +198,7 @@ lambda_mul_x = lambda nnn: nnn * 8
 print('>>>', lambda_mul_x(3))
 
 
+print("-----------arg with function reference")
 def func_final(x, y, funcarg):
     print(x * y * funcarg(4))
 
