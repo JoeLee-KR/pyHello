@@ -1,2 +1,3 @@
 _MSG=`date "+%y%m%d-%H%M"`
 git add . && git commit -m $_MSG
+git push git@gitjoe:joelee-kr/pyHello.git
