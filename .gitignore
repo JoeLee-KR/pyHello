@@ -2,6 +2,9 @@
 .vscode/
 .idea/
 
+# jupyter
+.ipynb_checkpoints
+
 # Vagrant
 .vagrant/
 
