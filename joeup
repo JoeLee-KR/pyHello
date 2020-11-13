@@ -1,3 +1,4 @@
 _MSG=`date "+%y%m%d-%H%M"`
-git add . && git commit -m $_MSG
+_HOST=`hostname -s`
+git add . && git commit -m $_HOST:$_MSG
 git push git@gitjoe:joelee-kr/pyHello.git
