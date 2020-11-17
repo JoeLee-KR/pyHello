@@ -17,5 +17,5 @@ def countprime(x):
     print("[Done]\nFind:{}, in 1..{}.".format(count,x) )
     return count
 
-print("Searched Number of Prime : ")
+print("Searched Number of Prime: ")
 print("Total Prime Count is ", countprime(10000))
