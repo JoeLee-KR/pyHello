@@ -1,0 +1,3 @@
+git pull git@gitjoe:joelee-kr/pyHello.git
+# git pull -f git@gitjoe:joelee-kr/pyHello.git main
+# git pull -f -u
