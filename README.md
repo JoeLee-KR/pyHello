@@ -1,5 +1,5 @@
 # pyHello
-python study sandbox for private...
+python study sandbox for privately...
 
 
 +==
