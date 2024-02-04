@@ -1,4 +1,4 @@
-import atexit
+eimport atexit
 import os
 import readline
 
