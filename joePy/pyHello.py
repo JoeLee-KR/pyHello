@@ -1,3 +1,6 @@
+#
+# need python lib: requests, at venv by conda
+#
 print("PyHello, ...")
 import requests
 
