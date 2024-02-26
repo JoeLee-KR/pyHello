@@ -6,4 +6,4 @@ import requests
 
 respo = requests.get("http://google.com")
 print(respo.text)
-print("EOF")
+print( "EOF")
