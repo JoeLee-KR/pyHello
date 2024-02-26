@@ -1,17 +1,20 @@
+#
+# abcde12345ABCDE
+# 한글x한글8한글K
 import os
 import sys
 import time
-import mss
+import mss          # by pip3
 import mss.tools
-import pyautogui
-import natsort
+import pyautogui    # by pip3
+import natsort      # by pip3
 import shutil
 
-from pynput import mouse
+from pynput import mouse    # by pip3 pynput
 from pynput.keyboard import Key, Controller
 from PIL import Image
 
-from PySide6.QtCore import QSize, Qt
+from PySide6.QtCore import QSize, Qt  # by conda, Qt
 from PySide6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMainWindow, QVBoxLayout, \
     QHBoxLayout, QSlider
 
