@@ -4,5 +4,6 @@
 print("PyHello, ...")
 import requests
 
-respo = requests.get("http://naver.com")
+respo = requests.get("http://google.com")
 print(respo.text)
+print("EOF")
