@@ -190,14 +190,27 @@ class MainWindow(QMainWindow):
 
         with mouse.Listener(on_click=on_click) as listener:
             listener.join()
+
     def 속도_변경(self):
         self.speed = self.speed_slider.value() / 10.0
         self.speed_label.setText(f'캡쳐 속도: {self.speed:.1f}초')
         self.sign.setText('INTERVAL:'+str(self.speed))
 
     def btn_click(self):
-        self.sign.setText('START BTN CLICK')
-        self.sign.show()
+        def btn_msg01(self):
+            self.stat.setText('STEP:joe click')
+            self.stat.show()
+            print('STEP:joe click')
+
+        def btn_msg02(self):
+            self.sign.setText('step:joe0')
+            self.sign.repaint()
+            self.button3.setText('step:joe0')
+            self.button3.repaint()
+            # self.repaint()
+            print("STEP:joe0")
+
+        btn_msg01(self)
 
         if self.input1.text() == '':
             self.stat.setText('페이지 수를 입력하세요.')
@@ -210,9 +223,8 @@ class MainWindow(QMainWindow):
             return
 
         pos_x, pos_y = pyautogui.position()
-        print("BTN:set pos" + str(pos_x) + ":" + str(pos_y) )
-        self.sign.setText('BTN:set pos')
-        self.sign.show()
+        print("BTN:set pos left: " + str(self.posX1) + ":" + str(self.posY1) )
+        print("BTN:set pos right: " + str(self.posX2) + ":" + str(self.posY2))
 
         if not(os.path.isdir('pdf_images')):
             os.mkdir(os.path.join('pdf_images'))
@@ -227,31 +239,26 @@ class MainWindow(QMainWindow):
         mouse_left = mouse.Button.left
         kb_control = Controller()
 
-        self.sign.setText('BTN:joe0')
-        self.sign.repaint()
-        self.button3.setText('BTN:joe0')
-        self.button3.repaint()
-        self.repaint()
-        print('joe0')
+        btn_msg02(self)
 
         try:
             # 화면 전환 위해 한번 클릭
             time.sleep(2)
             m.position = (self.posX1, self.posY1)
-            self.sign.setText('s.joe1')
+            self.sign.setText('step:joe1')
             self.sign.repaint()
 
             print('joe1')
 
             time.sleep(2)
             m.click(mouse_left)
-            self.sign.setText('s.joe2')
+            self.sign.setText('step:joe2')
             self.sign.repaint()
             print('joe2')
 
             time.sleep(2)
             m.position = (pos_x, pos_y)
-            self.sign.setText('s.joe3')
+            self.sign.setText('step:joe3')
             self.sign.repaint()
             print('joe3')
 
@@ -313,11 +320,13 @@ class MainWindow(QMainWindow):
                 pdf_name = 'default'
 
             cvt_rgb_0.save(pdf_name+'.pdf', save_all=True, append_images=img_list, quality=100)
-            print("PDF 변환 완료!"+pdf_name+".pdf 만듬")
-            self.stat.setText('s.PDF end!'+pdf_name+'.pdf.s')
-            self.show()
-            time.sleep(2)
-            self.stat.setText('sSS.PDF end!' + pdf_name + '.pdf.sx')
+            print("PDF 변환 완료!AA"+pdf_name+".pdf 만듬")
+            self.stat.setText('PDF end!AA'+pdf_name+'.pdf')
+            self.stat.show()
+            QApplication.processEvents()
+            time.sleep(3)
+            print("PDF 변환 완료!BB" + pdf_name + ".pdf 만듬")
+            self.stat.setText('PDF end!BB' + pdf_name + '.pdf')
             shutil.rmtree('pdf_images/')
 
         except Exception as e:
