@@ -1,8 +1,8 @@
 # eBookToPdf
 E-Book PDF 추출 프로그램<br /><br />
-제작 과정 : https://eastshine12.tistory.com/55
-<br /><br /><br />
-
+제작 과정 : https://eastshine12.tistory.com/55 <br />
+깃허브 : https://github.com/eastshine12/eBookToPdf.git
+<br />
 
 # 프로그램 화면
 <img src="gui_image_win.png" width="500">
