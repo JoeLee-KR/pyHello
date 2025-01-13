@@ -1,5 +1,5 @@
 # pyHello
-python study sandbox for privately...
+python study sandbox for privately... jan 2025
 
 - _depot: downloaded or packed materials
 - fastcampusPkg: pkgs
