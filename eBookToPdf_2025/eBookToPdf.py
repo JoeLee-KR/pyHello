@@ -1,21 +1,16 @@
-#
-# abcde12345ABCDE
-# 한글x한글0한글K
 import os
 import sys
 import time
-import mss          # conda install -n {envs} conda-forge::python-mss
+import mss
 import mss.tools
-import pyautogui    # conda install -n {envs} conda-forge::pyautogui
-import natsort      # conda install -n {envs} conda-forge::natsort
+import pyautogui
+import natsort
 import shutil
 
-# conda install -n {envs} conda-forge::pynput
 from pynput import mouse
 from pynput.keyboard import Key, Controller
 from PIL import Image
 
-# conda install -n py9 conda-forge::qt
 from PySide6.QtCore import QSize, Qt
 from PySide6.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMainWindow, QVBoxLayout, \
     QHBoxLayout, QSlider
@@ -31,7 +26,7 @@ class MainWindow(QMainWindow):
         self.posX2 = 0
         self.posY2 = 0
         self.total_page = 1
-        self.speed = 0.2
+        self.speed = 0.1
         self.region = {}
         self.file_list = []
 
@@ -70,11 +65,11 @@ class MainWindow(QMainWindow):
         font_title.setPointSize(20)
         self.title.setFont(font_title)
 
-        self.stat = QLabel('...', self)
+        self.stat = QLabel('', self)
         self.stat.setAlignment(Qt.AlignmentFlag.AlignCenter)
         font_stat = self.stat.font()
-        font_stat.setPointSize(10)
-        font_stat.setBold(False)
+        font_stat.setPointSize(18)
+        font_stat.setBold(True)
         self.stat.setFont(font_stat)
 
         self.sign = QLabel('Made By EastShine', self)
@@ -164,11 +159,9 @@ class MainWindow(QMainWindow):
         self.input1.clear()
         self.input2.clear()
         self.stat.clear()
-        self.stat.setText('INIT')
         self.speed_slider.setValue(1)
 
     def 좌측상단_좌표_클릭(self):
-        self.sign.setText('UPLEFT')
         def on_click(x, y, button, pressed):
             self.posX1 = int(x)
             self.posY1 = int(y)
@@ -181,7 +174,6 @@ class MainWindow(QMainWindow):
             listener.join()
 
     def 우측하단_좌표_클릭(self):
-        self.sign.setText('DOWNRIGHT')
         def on_click(x, y, button, pressed):
             self.posX2 = int(x)
             self.posY2 = int(y)
@@ -192,27 +184,11 @@ class MainWindow(QMainWindow):
 
         with mouse.Listener(on_click=on_click) as listener:
             listener.join()
-
     def 속도_변경(self):
         self.speed = self.speed_slider.value() / 10.0
         self.speed_label.setText(f'캡쳐 속도: {self.speed:.1f}초')
-        self.sign.setText('INTERVAL:'+str(self.speed))
 
     def btn_click(self):
-        def btn_msg01(self):
-            self.stat.setText('STEP:joe click')
-            self.stat.show()
-            print('STEP:joe click')
-
-        def btn_msg02(self):
-            self.sign.setText('step:joe0')
-            self.sign.repaint()
-            self.button3.setText('step:joe0')
-            self.button3.repaint()
-            # self.repaint()
-            print("STEP:joe0")
-
-        btn_msg01(self)
 
         if self.input1.text() == '':
             self.stat.setText('페이지 수를 입력하세요.')
@@ -225,8 +201,6 @@ class MainWindow(QMainWindow):
             return
 
         pos_x, pos_y = pyautogui.position()
-        print("BTN:set pos left: " + str(self.posX1) + ":" + str(self.posY1) )
-        print("BTN:set pos right: " + str(self.posX2) + ":" + str(self.posY2))
 
         if not(os.path.isdir('pdf_images')):
             os.mkdir(os.path.join('pdf_images'))
@@ -241,35 +215,20 @@ class MainWindow(QMainWindow):
         mouse_left = mouse.Button.left
         kb_control = Controller()
 
-        btn_msg02(self)
-
         try:
             # 화면 전환 위해 한번 클릭
             time.sleep(2)
             m.position = (self.posX1, self.posY1)
-            self.sign.setText('step:joe1')
-            self.sign.repaint()
-
-            print('joe1')
 
             time.sleep(2)
             m.click(mouse_left)
-            self.sign.setText('step:joe2')
-            self.sign.repaint()
-            print('joe2')
-
             time.sleep(2)
             m.position = (pos_x, pos_y)
-            self.sign.setText('step:joe3')
-            self.sign.repaint()
-            print('joe3')
 
             # 파일 저장
             while self.num <= self.total_page:
 
                 time.sleep(self.speed)
-                print("Cap:"+str(self.num) )
-                self.stat.setText('CAP:'+str(self.num) )
 
                 # 캡쳐하기
                 with mss.mss() as sct:
@@ -284,12 +243,8 @@ class MainWindow(QMainWindow):
 
                 self.num += 1
 
-            print("End Capture!"+str(self.num)+"page processed." )
-            self.stat.setText('End Capture')
-
-            print("PDF 변환 시작!")
-            self.stat.setText('s.PDF 변환 시작!')
-
+            print("캡쳐 완료!")
+            self.stat.setText('PDF 변환 중..')
             path = 'pdf_images'
             # 이미지 파일 리스트
             self.file_list = os.listdir(path)
@@ -306,9 +261,6 @@ class MainWindow(QMainWindow):
             im_buf = Image.open(img_path)
             cvt_rgb_0 = im_buf.convert('RGB')
 
-            self.stat.setText('s.PDF start!'+img_path+':location')
-            time.sleep(2)
-
             for i in self.file_list:
                 img_path = 'pdf_images/' + i
                 im_buf = Image.open(img_path)
@@ -322,13 +274,8 @@ class MainWindow(QMainWindow):
                 pdf_name = 'default'
 
             cvt_rgb_0.save(pdf_name+'.pdf', save_all=True, append_images=img_list, quality=100)
-            print("PDF 변환 완료!AA"+pdf_name+".pdf 만듬")
-            self.stat.setText('PDF end!AA'+pdf_name+'.pdf')
-            self.stat.show()
-            QApplication.processEvents()
-            time.sleep(3)
-            print("PDF 변환 완료!BB" + pdf_name + ".pdf 만듬")
-            self.stat.setText('PDF end!BB' + pdf_name + '.pdf')
+            print("PDF 변환 완료!")
+            self.stat.setText('PDF 변환 완료!')
             shutil.rmtree('pdf_images/')
 
         except Exception as e:
