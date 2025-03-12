@@ -28,9 +28,11 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         self.num = 1
-        self.posX1 = 3300
+        # ORG is 0,0 x 0,0
+        # this pos is Somebook
+        self.posX1 = 3350
         self.posY1 = 80
-        self.posX2 = 4380
+        self.posX2 = 4330
         self.posY2 = 1430
         self.total_page = 1
         self.speed = 2.0  # 0.2
