@@ -30,10 +30,10 @@ class MainWindow(QMainWindow):
         self.num = 1
         # ORG is 0,0 x 0,0
         # this pos is Somebook
-        self.posX1 = 3350
-        self.posY1 = 80
-        self.posX2 = 4330
-        self.posY2 = 1430
+        self.posX1 = 3370
+        self.posY1 = 15
+        self.posX2 = 4320
+        self.posY2 = 1420
         self.total_page = 1
         self.speed = 2.0  # 0.2
         self.region = {}
