@@ -4,6 +4,8 @@ _*.env
 *.wav
 *.mp3
 *.plaintext
+.idea/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
