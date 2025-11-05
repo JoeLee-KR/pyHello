@@ -1,6 +1,7 @@
 # pyHello
 python study sandbox for privately... jan 2025....
 -python12,13
+-Applesilicon: /opt/homebrew/bin, Intel: /usr/local/bin
 
 - _depot: downloaded or packed materials
 - fastcampusPkg: pkgs
