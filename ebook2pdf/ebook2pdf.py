@@ -30,12 +30,12 @@ class MainWindow(QMainWindow):
         self.num = 1
         # ORG is 0,0 x 0,0
         # this pos is Somebook
-        self.posX1 = 3370
-        self.posY1 = 15
-        self.posX2 = 4320
-        self.posY2 = 1420
+        self.posX1 = 3314
+        self.posY1 = 89
+        self.posX2 = 4365
+        self.posY2 = 1436
         self.total_page = 1
-        self.speed = 2.0  # 0.2
+        self.speed = 1.6 # 0.2, 2.0
         self.region = {}
         self.file_list = []
 

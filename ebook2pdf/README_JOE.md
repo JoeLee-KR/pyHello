@@ -1,7 +1,7 @@
 ### 해당 프로그램을 Mac, conda+pycharm에서 실행하기
 
 conda의 패키지들로는 실행할 수 없다.
-conda환경에서 pip로 패키지들을 설치해야만 한다.
+conda환경에서 pip로 패키지들 일부를 추가 설치해야만 한다.
 
 1. 실행 및 설치 환경을 위해 conda env를 activate한다.
 $ conda env list
