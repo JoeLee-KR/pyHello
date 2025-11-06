@@ -1,13 +1,12 @@
 # pyHello
-python study sandbox for privately... jan 2025....
--python12,13
--Applesilicon: /opt/homebrew/bin, Intel: /usr/local/bin
+### python env.
+- python study sandbox for privately... jan 2025....
+  - python 3.9, 3.11, 3.13
+  - Applesilicon: /opt/homebrew/bin, Intel: /usr/local/bin
 
-- _depot: downloaded or packed materials
-- fastcampusPkg: pkgs
-- fastcampusPy: python lecture
-- joePy: simple test code
-- resource: sample resource files to test python apps
+### books & lectures
+- ebook2pdf: ebook screnn capture utility
 - suniPyHello_jupyter: mySuni Python lecture
-
+- fastcampusPy: fastcampus python lecture
+- joePy: simple test code
 +==
