@@ -2,7 +2,7 @@
 ### python env.
 - python study sandbox for privately... jan 2025....
   - python 3.9, 3.11, 3.13
-  - Applesilicon: /opt/homebrew/bin, Intel: /usr/local/bin
+  - Apple Silicon: /opt/homebrew/bin, Intel: /usr/local/bin
 
 ### books & lectures
 - ebook2pdf: ebook screnn capture utility
