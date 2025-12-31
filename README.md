@@ -8,5 +8,4 @@
 - ebook2pdf: ebook screnn capture utility
 - suniPyHello_jupyter: mySuni Python lecture
 - fastcampusPy: fastcampus python lecture
-- joePy: simple test code
 +==
