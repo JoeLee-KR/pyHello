@@ -1,7 +1,7 @@
 # pyHello
 ### python env.
 - python study sandbox for privately... jan 2025....
-  - python 3.9, 3.11, 3.13
+  - python 3.9, 3.12 (use this)
   - Apple Silicon: /opt/homebrew/bin, Intel: /usr/local/bin
 
 ### books & lectures
